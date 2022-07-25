@@ -34,6 +34,9 @@ public class DispatchServlet extends HttpServlet {
             case "/usr/member/login":
                 memberController.showLogin(rq);
                 break;
+            case "/usr/article/write/free":
+                articleController.showWrite(rq);
+                break;
         }
     }
 
